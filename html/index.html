@@ -12,21 +12,15 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 mt-5">
-                <h2>Github Profile Search</h2>
-                <input id="username" class="form-control" type="text" placeholder="Github User Name"
-                    aria-label="default input example" autocomplete="off" />
-                <button id="button" type="button" class="btn btn-primary mt-3">
-                    Search
-                </button>
-            </div>
-        </div>
+    <div class="input-group">
+        <input id="username" type="text" class="form-control" placeholder="Search Github Profile Here..."
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button id="button" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+    </div>
 
-        <div class="github-profile mt-5" id="githubProfile">
-            <div class="col-md-12" id="res"></div>
-        </div>
+    <div class="github-profile">
+        <div class="col-md-12" id="res"></div>
+    </div>
     </div>
 
     <script src="../js/app.js"></script>
