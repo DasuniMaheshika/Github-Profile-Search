@@ -2,33 +2,46 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
+h3{
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+#button {
+    text-align: center;
+    background: #dddddd;
+    color: #222;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 13px;
+    border: #dddddd;
+}
+
+#button:hover,
+#button:active {
+    background-color: #666363;
+    color: #dddddd;
+}
+
+body{
+    background-color:#ece9e2;
+}
+
 .input-group {
     margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
-}
-
-.input-group button:link,
-.input-group button:visited {
-    background: #dddddd;
-    color: #222;
-    display: inline-block;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 0.2px;
-    font-size: 13px;
-}
-
-.input-group button:hover,
-.input-group button:active {
-    background-color: #666363;
-    color: #dddddd;
+    height: 50px;
+    border-radius: 6px;
 }
 
 .details-box {
     font-family: 'Open Sans', Arial, sans-serif;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
@@ -97,7 +110,8 @@ a:visited {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    border-radius: 4px;
+    background: #dddddd;
+    color: #222;
     font-weight: bold;
     letter-spacing: 0.2px;
     font-size: 13px;
