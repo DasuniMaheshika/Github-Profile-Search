@@ -2,7 +2,7 @@ document.getElementById("button").addEventListener("click", showGithubUser);
 async function showGithubUser() {
   let username = document.getElementById("username").value;
   let url = `https://api.github.com/users/${username}`;
-  let token = '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';
+  let token = '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';
 
   try {
     const res = await fetch(url, {
