@@ -1,20 +1,15 @@
 document.getElementById("button").addEventListener("click", showGithubUser);
 async function showGithubUser() {
   let username = document.getElementById("username").value;
-  let url = `https://api.github.com/users/${username}`;
-  let token = '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';
+  let url = `https://api.github.com/users/${username}?q=Q`;
 
   try {
-    const res = await fetch(url, {
-      headers: {
-        'Authorization': `Bearer ${token}`
-      }
-    });
+    const res = await fetch(url);
     const data = await res.json();
 
     if (data.message) {
       document.getElementById("res").innerHTML = `
-          <h3>Profile not found</h3>
+          <h3>Profile not found!</h3>
         `;
     } else {
       document.getElementById("res").innerHTML = `
