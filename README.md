@@ -17,7 +17,7 @@ This is a simple project for creating github profile search and get some details
 ## Sample Image
 
 <div align="center">
-  <img src="../img/search-bar.png" alt="User Details" width="400" style="margin-right: 20px"/>
-  <img src="../img/show-details.png" alt="User Search" width="400"/>
+  <img src="./img/search-bar.png" alt="User Details" width="800" style="margin-right: 20px"/>
+  <img src="./img/show-details.png" alt="User Search" width="800"/>
 </div>
 
